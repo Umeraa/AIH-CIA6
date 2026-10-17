@@ -1,9 +1,6 @@
 # BioVision 3D — Holographic AR/VR Medical Anatomy & Clinical Pathology Visualizer
-**Course Code:** CSDO7012 — AI for Healthcare (BE Sem VII)  
-**Assessment:** CIA Tool Group F (F3: Coding Assignment)  
-**Topic:** Virtual & Augmented Reality (V&AR)  
-**Group:** Group 6  
-**Total Marks:** 10 Marks  
+
+An interactive 3D Virtual & Augmented Reality (V&AR) application for real-time anatomical layer exploration, surgical planning, and clinical pathology annotation.
 
 ---
 
@@ -40,8 +37,8 @@ You can add, edit, load, save, and delete clinical issues completely at **runtim
 ### 2. 📂 Runtime JSON Case Loading (`LOAD CASE (JSON)`)
 - Click **`📂 LOAD CASE (JSON)`** to import external patient records on the fly.
 - Two pre-configured clinical case files are provided in the folder for demonstration:
-  - [`case_polytrauma_patient.json`](file:///d:/aih%20assn6/case_polytrauma_patient.json) — High-velocity road accident trauma patient.
-  - [`case_cardiology_patient.json`](file:///d:/aih%20assn6/case_cardiology_patient.json) — Cardiac Care Unit (CCU) cardiovascular patient.
+  - [`case_polytrauma_patient.json`](case_polytrauma_patient.json) — High-velocity road accident trauma patient.
+  - [`case_cardiology_patient.json`](case_cardiology_patient.json) — Cardiac Care Unit (CCU) cardiovascular patient.
 
 ### 3. 💾 Runtime JSON Case Export (`SAVE CASE (JSON)`)
 - Click **`💾 SAVE CASE (JSON)`** to export all active issues (including newly placed ones) to a portable `.json` file for persistence and sharing.
@@ -89,14 +86,3 @@ Anchored in 3D space with genuine ICD-10 diagnostic coding, severity triage, and
 - 🥽 **VR Stereoscopic 3D Mode (Virtual Reality):**
   - Dual side-by-side viewport (**Left Eye** and **Right Eye**) with authentic binocular parallax ($\pm \Delta \theta$ IPD optical separation).
   - Simulated circular VR lens barrels/vignettes (mimicking Meta Quest 3 / Apple Vision Pro).
-
----
-
-## 📋 Evaluation Rubric Alignment (10 Marks)
-
-| Performance Indicator | Max Marks | How Addressed in This Project |
-|---|:---:|---|
-| **Problem Understanding & Logic Design** | 2 | Comprehensive mathematical 3D projection pipeline, dual AR/VR rendering architecture, and clinical pathology data modeling. |
-| **Code Implementation & Correctness** | 4 | Complete, robust Python application using NumPy and Tkinter. Smooth 60 FPS rotation, layer compositing, issue picking, and export functionality. |
-| **Testing & Output Verification** | 2 | Interactive live demo with camera controls, VR stereoscopic toggle, custom issue injection, and high-resolution snapshot export. |
-| **Code Documentation & Practices** | 2 | Clean object-oriented architecture, type hints, docstrings, academic metadata, and modular clean code. |
