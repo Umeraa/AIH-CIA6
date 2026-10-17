@@ -1,0 +1,57 @@
+{
+  "case_title": "Case 208: Advanced Cardiovascular Disease & Vascular Occlusion",
+  "patient_age": 68,
+  "triage_level": "Cardiac Care Unit (CCU)",
+  "issues": [
+    {
+      "id": "ISS-C01",
+      "name": "Bilateral Internal Carotid Artery Stenosis (85%)",
+      "system": "Circulatory",
+      "severity": "CRITICAL",
+      "coord_3d": [0.14, 2.45, 0.22],
+      "icd10": "I65.21 - Occlusion and Stenosis of Right Carotid Artery",
+      "symptoms": "Transient Ischemic Attack (amaurosis fugax), carotid bruit audible.",
+      "intervention": "Carotid Endarterectomy (CEA) or stenting with 3D AR cerebral perfusion overlay."
+    },
+    {
+      "id": "ISS-C02",
+      "name": "Acute Anterior STEMI (LAD Total Occlusion)",
+      "system": "Circulatory",
+      "severity": "CRITICAL",
+      "coord_3d": [-0.08, 1.62, 0.32],
+      "icd10": "I21.0 - ST-Elevation Myocardial Infarction of Anterior Wall",
+      "symptoms": "Chest tightness, troponin-I > 25 ng/mL, cardiogenic shock impending.",
+      "intervention": "Primary percutaneous coronary intervention with AR holographic vessel lumen tracking."
+    },
+    {
+      "id": "ISS-C03",
+      "name": "Ascending Thoracic Aortic Dissection (Stanford Type A)",
+      "system": "Circulatory",
+      "severity": "CRITICAL",
+      "coord_3d": [0.02, 1.85, 0.26],
+      "icd10": "I71.01 - Dissection of Ascending Aorta",
+      "symptoms": "Tearing back and chest pain radiating to scapula, pulse differential between arms.",
+      "intervention": "Emergent synthetic Dacron graft replacement of ascending aorta and hemiarch repair."
+    },
+    {
+      "id": "ISS-C04",
+      "name": "Bilateral Renal Artery Stenosis with Resistant HTN",
+      "system": "Circulatory",
+      "severity": "HIGH",
+      "coord_3d": [-0.26, 1.05, 0.04],
+      "icd10": "I70.1 - Atherosclerosis of Renal Artery",
+      "symptoms": "Refractory hypertension on 4 medications, declining eGFR (32 mL/min).",
+      "intervention": "Percutaneous transluminal renal angioplasty with bare-metal stenting under 3D fluoroscopy."
+    },
+    {
+      "id": "ISS-C05",
+      "name": "Deep Vein Thrombosis with Chronic Venous Insufficiency",
+      "system": "Circulatory",
+      "severity": "HIGH",
+      "coord_3d": [0.46, 0.08, 0.06],
+      "icd10": "I82.411 - Acute Femoral Vein Thrombosis",
+      "symptoms": "Calf hyperpigmentation, venous stasis ulceration, unilateral leg pain.",
+      "intervention": "Ultrasound-assisted catheter directed thrombolysis and compression therapy."
+    }
+  ]
+}

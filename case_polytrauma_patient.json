@@ -1,0 +1,57 @@
+{
+  "case_title": "Case 104: High-Velocity Polytrauma (Motor Vehicle Collision)",
+  "patient_age": 34,
+  "triage_level": "Level 1 Trauma Alert",
+  "issues": [
+    {
+      "id": "ISS-T01",
+      "name": "Depressed Frontoparietal Skull Fracture",
+      "system": "Skeletal",
+      "severity": "CRITICAL",
+      "coord_3d": [0.28, 2.85, 0.22],
+      "icd10": "S02.0XXA - Fracture of Vault of Skull",
+      "symptoms": "GCS 8, left hemiparesis, right pupil dilated and sluggish.",
+      "intervention": "Emergency decompressive craniectomy with 3D AR bone fragment tracking."
+    },
+    {
+      "id": "ISS-T02",
+      "name": "Right Flail Chest & Tension Pneumothorax",
+      "system": "Visceral",
+      "severity": "CRITICAL",
+      "coord_3d": [0.42, 1.62, 0.28],
+      "icd10": "S22.5XXA - Flail Chest with Pneumothorax",
+      "symptoms": "Paradoxical chest motion, acute respiratory distress, tracheal shift.",
+      "intervention": "Immediate tube thoracostomy followed by AR-guided rib plating."
+    },
+    {
+      "id": "ISS-T03",
+      "name": "Splenic Laceration Grade IV with Hemoperitoneum",
+      "system": "Visceral",
+      "severity": "CRITICAL",
+      "coord_3d": [-0.35, 1.25, 0.15],
+      "icd10": "S36.039A - Major Laceration of Spleen",
+      "symptoms": "Kehr's sign (left shoulder pain), hypotension (BP 82/50), FAST exam positive.",
+      "intervention": "Exploratory laparotomy vs. splenic artery angioembolization under 3D vascular roadmapping."
+    },
+    {
+      "id": "ISS-T04",
+      "name": "Unstable Open-Book Pelvic Ring Fracture",
+      "system": "Skeletal",
+      "severity": "CRITICAL",
+      "coord_3d": [-0.22, 0.12, 0.18],
+      "icd10": "S32.89XA - Multiple Fractures of Pelvis",
+      "symptoms": "Pelvic instability on gentle compression, retroperitoneal hematoma.",
+      "intervention": "Emergent pelvic binder stabilization followed by percutaneous sacroiliac screw fixation."
+    },
+    {
+      "id": "ISS-T05",
+      "name": "Comminuted Distal Femur Fracture",
+      "system": "Skeletal",
+      "severity": "HIGH",
+      "coord_3d": [0.42, -1.15, 0.08],
+      "icd10": "S72.401A - Comminuted Fracture of Lower End of Femur",
+      "symptoms": "Gross shortening and rotational deformity of right lower extremity.",
+      "intervention": "Retrograde intramedullary nailing with AR distal locking alignment."
+    }
+  ]
+}
